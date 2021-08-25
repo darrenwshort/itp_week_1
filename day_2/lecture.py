@@ -88,10 +88,10 @@ print(type(exampleInt))
 
 # we can assign variables to the evaluation of arithmetic operators
 
-sum = 4 + 4
-sub = 1 - 100 # it can evaluate to negatives too!
-div = 10/5 # even if it divides evenly, it returns a float.
-floor = 10/3 # to only get whole numbers, we use floor division.
+sum = 4 + 4    # 8
+sub = 1 - 100 # it can evaluate to negatives too!  --> -99
+div = 10/5 # even if it divides evenly, it returns a float. -->   2.0
+floor = 10//3 # to only get whole numbers, we use floor division.  --> 3
 
 # ASSIGNMENT OPERATORS
 
