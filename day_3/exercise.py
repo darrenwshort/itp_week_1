@@ -30,6 +30,7 @@ for letter in lowercase:
 # A safe password has a minimum of (1) uppercase, (1) lowercase, (1) number, (1) special character.
 
 password = "MySuperSafePassword!@34"
+### for testing...
 # print("Printing each char from password: ")
 # for c in password:
 #     print(c)
@@ -100,8 +101,8 @@ else:
 
 print(final_result)
 
-
-################################# BONUS: update the password variable to take in an user input! ###############################################
+############################################################### BONUS #########################################################################
+####################################### Update the password variable to take in user input! ################################################
 print("\n\nLet's try a new password.")
 password = input("Enter new password: ")
 
@@ -125,7 +126,7 @@ uppercase = []
     # 2a. append the capitalization of each element to the uppercase list
 for letter in lowercase:
     uppercase.append(letter.upper())
-    print(uppercase) #print uppercase list each time, as it grows
+    # for testing - print(uppercase) #print uppercase list each time, as it grows
 
 
 
