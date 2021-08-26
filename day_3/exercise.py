@@ -66,19 +66,19 @@ has_special_char = False
 for character in password:
     if(character in lowercase):
         has_lowercase = True
-        print("has lowercase!")
+        #print("has lowercase!")
         continue
     elif(character in uppercase):
         has_uppercase = True
-        print("has upppercase!")
+        #print("has upppercase!")
         continue
     elif(character in special_char):
         has_special_char = True
-        print("has special_char!")
+        #print("has special_char!")
         continue
     elif(int(character) in range(10)):
         has_number = True
-        print("has number!")
+        #print("has number!")
         continue
 
 # 4. do a final check to see if all of your variables are TRUE
