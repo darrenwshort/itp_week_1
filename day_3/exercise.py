@@ -79,8 +79,6 @@ for character in password:
         has_number = True
         print("has number!")
         continue
-    else:
-        continue
 
 # 4. do a final check to see if all of your variables are TRUE
 # by using the AND operator for all 4 conditions. (This is done for you, uncomment below)
@@ -176,8 +174,6 @@ for character in password:
     elif(int(character) in range(10)):
         has_number = True
         # print("has number!")
-        continue
-    else:
         continue
 
 # 4. do a final check to see if all of your variables are TRUE
