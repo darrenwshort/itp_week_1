@@ -114,7 +114,7 @@ for letter in lowercase:
 
 # 2. loop through the lowercase and print the capitalization of each element
 for letter in lowercase:
-    print(letter.capitalize())
+    print(letter.upper())
 
 # MEDIUM
 
