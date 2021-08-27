@@ -24,7 +24,6 @@ for letter in lowercase:
     #print(uppercase) #print uppercase list each time, as it grows
 
 
-
 # HARD
 
 # A safe password has a minimum of (1) uppercase, (1) lowercase, (1) number, (1) special character.
