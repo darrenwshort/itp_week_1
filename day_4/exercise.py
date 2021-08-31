@@ -20,7 +20,7 @@ print(inventory) #print changes after increment of values
 
 # SCENARIO: REMOVE ANY 0 ITEMS
 
-del_list = []j   #create empty list
+del_list = []   #create empty list
 for item in inventory.items():
     # use an if statement to check if the value is 0 and then remove it
     if(item[1] == 0):
